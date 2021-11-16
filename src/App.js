@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import Wrapper from "./components/Hoc/Wrapper";
-import ClickCounter from "./components/HOC Example/ClickCounter";
-import HoverCounter from "./components/HOC Example/HoverCounter";
-import ParentComp from "./components/PureMemoComponent/ParentComponent";
-import ClassRef from "./components/Ref/ClassRef";
-import FunctionalRef from "./components/Ref/FunctionalRef";
-import UseRefExample from "./components/Ref/UseRefExmaple";
 import UseRefStorePreviousValue from "./components/Ref/UseRefStorePreviousValue";
 
 // ? class component
