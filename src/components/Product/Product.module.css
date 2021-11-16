@@ -1,0 +1,64 @@
+.Product {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  display: flex;
+  justify-content: space-around;
+  width: 50rem;
+  margin-top: 15px;
+  color: #444;
+}
+.button {
+  color: #047857;
+  background-color: #fff;
+  border: none;
+  line-height: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.value {
+  display: inline-block;
+  color: #047857;
+  font-size: 13px;
+  margin: 0 5px;
+}
+
+.input {
+  outline: none;
+  border: 1px solid #047857;
+  border-radius: 5px;
+  padding: 5px 2px;
+  color: #047857;
+}
+
+.input:focus {
+  border: 2px solid #047857;
+}
+
+.remove {
+  color: rgb(236, 68, 68);
+}
+
+.cartChange {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  min-width: 5rem;
+  box-shadow: inset 0 0 4px 0 rgb(0 0 0 / 10%);
+}
+.deleteIcon {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+button[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+button[aria-disabled="true"]:active {
+  pointer-events: none !important;
+}
